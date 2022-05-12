@@ -11,3 +11,10 @@ spec:
       subscriptionID: 92977651-ce42-4d9a-b6e0-a2c33e3bd25f
       sendFinished: true
       sendStarted: true
+    - type: sh.keptn.event.echo.triggered
+      requests:
+        - >-
+          curl --request GET https://google.com
+      subscriptionID: 2a513625-51cc-4720-82bc-4812dfdbe41a
+      sendFinished: true
+      sendStarted: true
